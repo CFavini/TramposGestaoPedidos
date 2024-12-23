@@ -1,0 +1,8 @@
+﻿USE GestaoDePedidos;
+
+CREATE TABLE Customer (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name VARCHAR(255) NOT NULL,
+    Email VARCHAR(255) UNIQUE,
+    Phone VARCHAR(20)
+);
